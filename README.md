@@ -4,6 +4,15 @@
 
 All this gem does is something very simple- allow you to trigger select2 dropdown to select the value you want. The original select doesn't with the javascript overrides, so this new helper method does only this thing.
 
+## ACDCORP versions
+We are hosting several gems that our projects are using because bundle requires
+them from the custom fork or original repo where they can get updates and crash our
+projects, therefore, every gem fork contains the following branch(es):
+
+  * fork-stable => Stable or initial branch from the fork
+  * x.x-acdcorp-stable => custom stable version
+  * master => continues development and tracking original repos
+
 ## Installation
 
 Add this line to your application's Gemfile:
